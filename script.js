@@ -13,6 +13,7 @@ function initMap() {
   const autocomplete = new google.maps.places.Autocomplete(autocompleteInput);
 
   // Restringir resultados a ubicaciones específicas (opcional)
+  autocomplete.setComponentRestrictions({ country: "mx" });
   autocomplete.setFields(["geometry", "formatted_address"]);
 
   // Cuando el usuario selecciona una dirección

@@ -1,7 +1,7 @@
 {
     "name": "Mapa Interactivo de Zonas",
     "short_name": "Mapa Zonas",
-    "start_url": "./index.html",
+    "start_url": "https://leomx25.github.io/mapa-zonas/",
     "display": "standalone",
     "background_color": "#ffffff",
     "theme_color": "#000000",
